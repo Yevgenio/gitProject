@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: purple;
+}
+
+h1 {
+    color: blue;
+    background-color: aqua;
+    font-size: 2.6em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    /*font: bold 16px Areal*/
+}
+
+/*p {*/
+/*    line-height: 1.6em;*/
+/*    color: darkgreen;*/
+/*    margin: 40px 20px;*/
+/*    border-left: 10px black solid;*/
+/*    border-bottom: 15px blue solid;*/
+/*    border-top: 5px gray solid;*/
+/*    padding: 20px 50px;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+ul {
+    color: aliceblue;
+    background-color: darkgray;
+}
+
+/* .some_class */
+.picked{
+    color: cadetblue;
+    background-color: black;
+}
+
+/* #some_id */
+#special-item {
+    color: darkmagenta;
+    background-color: deeppink;
+}
+
+#box-1 h1 {
+    background-color: #311;
+    color: #fff;
+    border: 5px red solid;
+    margin: 20px;
+    padding: 5px;
+}
+
+h1 {
+    color: hotpink;
+}
+
+a {
+    background-color: darkcyan;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+a:active {
+    background-color: white;
+    color: red;
+    border: 2px red solid;
+}
+
+a:visited {
+    background-color: darkgray;
+    color: white;
+}
+
+.my-form {
+    margin: 20px
+}
+
+.my-form .my-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], input[type="email"] {
+    padding: 8px;
+    width: 100%
+}
+
+.my-form input[type="submit"]{
+    background-color: red;
+    color: white;
+}
+
+.my-form input[type="submit"]:hover {
+    background-color: white;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+}
+
+p-box2 h2 {
+    poition: fixed;
+    top: 100px;
+    left: 200px;
+}
+
+.my-list li {
+    background-color: darkcyan;
+
+}
+
+.my-list li:nth-child(3) {
+    background-color: hotpink;
+}
+
+@media (max-width: 600px) {
+    .block {
+        display: block;
+        width: 20px;
+    }
+
+    body {
+        background-color: deepskyblue;
+    }
+
+    .my-list {
+        fo
+    }
+}
